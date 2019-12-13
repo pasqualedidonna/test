@@ -50,6 +50,12 @@ public class Main {
 
 		v4.addGiornalista(new Giornalista("TIZIO", "CAIO"));
 		v4.addGiornalista(new Giornalista("PIPPO", "PLUTO"));
+		
+		nome_evento = "Partita Udinese-Napoli";
+
+		data_evento = LocalDate.of(2019, Month.DECEMBER, 7);
+
+		VideoEvento v5 = new VideoEvento(nome_evento, data_evento, Sport.CALCIO);
 
 
 
